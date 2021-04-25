@@ -25,11 +25,7 @@ If you extend or use this dataset, please cite the paper (to appear in EACL 2021
 [paper](https://www.aclweb.org/anthology/2021.eacl-main.175.pdf) 
 ```text
 @inproceedings{chen-etal-2021-probing,
- author = {Chen, Pei  and
-Liu, Kang  and
-Chen, Yubo  and
-Wang, Taifeng  and
-Zhao, Jun},
+ author = {Chen, Pei  and Liu, Kang  and Chen, Yubo  and Wang, Taifeng  and Zhao, Jun},
  booktitle = {Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume},
  month = {April},
  pages = {2042--2048},
