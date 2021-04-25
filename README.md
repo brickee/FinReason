@@ -22,14 +22,20 @@ shareholders of the company. This type of event will tremendously impact the sto
 
 If you extend or use this dataset, please cite the paper (to appear in EACL 2021) where it was introduced.
 
-<!-- [paper](https://www.aclweb.org/anthology/2020.aacl-main.81.pdf)  -->
-<!-- ```text
-@inproceedings{chen2020reconstructing,
-  title={Reconstructing Event Regions for Event Extraction via Graph Attention Networks},
-  author={Chen, Pei and Yang, Hang and Liu, Kang and Huang, Ruihong and Chen, Yubo and Wang, Taifeng and Zhao, Jun},
-  booktitle={Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing},
-  pages={811--820},
-  year={2020}
+[paper](https://www.aclweb.org/anthology/2021.eacl-main.175.pdf) 
+```text
+@inproceedings{chen-etal-2021-probing,
+ author = {Chen, Pei  and
+Liu, Kang  and
+Chen, Yubo  and
+Wang, Taifeng  and
+Zhao, Jun},
+ booktitle = {Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume},
+ month = {April},
+ pages = {2042--2048},
+ publisher = {Association for Computational Linguistics},
+ title = {Probing into the Root: A Dataset for Reason Extraction of Structural Events from Financial Documents},
+ year = {2021}
 }
-``` -->
+```
 
