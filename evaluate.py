@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 
 
 # input the pred_data as dic, cause_id as keys and list of predicted spans as values
+# create a evaluator using the follwoing class: initlize it with event_type (lawsuit, pledge, ...); data_type (dev, test); and the data_path for the gold exmaples.
 
 class CausalityEvaluator():
     def __init__(self, event_type = None, data_type = None, data_path=None, gold_examples=None):
@@ -66,7 +67,8 @@ class CausalityEvaluator():
 
 
     def _get_id(self):
-        f = open(self.data_path + self.event_type + '_id_list.json', 'r')
+        #TODO: adapt to the new file
+        f = open(self.data_path + 'splitting_id_list.json', 'r')
         if self.data_type == 'dev':
             return json.load(f)['dev']
         elif self.data_type == 'test':
@@ -74,7 +76,7 @@ class CausalityEvaluator():
 
 
     def _read_gold_example(self):
-        soup_argu = BeautifulSoup(open(self.data_path + self.event_type + "_all.xml", encoding='UTF-8'), "lxml")
+        soup_argu = BeautifulSoup(open(self.data_path + self.event_type + ".xml", encoding='UTF-8'), "lxml")
         documents = soup_argu.find_all("causality")
         examples = {}
         id_list = self._get_id()

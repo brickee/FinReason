@@ -20,9 +20,9 @@ shareholders of the company. This type of event will tremendously impact the sto
 
 ## Citation
 
-If you extend or use this dataset, please cite the paper (to appear in EACL 2021) where it was introduced.
+If you extend or use this dataset, please cite the [paper](https://www.aclweb.org/anthology/2021.eacl-main.175.pdf) where it was introduced.
 
-[paper](https://www.aclweb.org/anthology/2021.eacl-main.175.pdf) 
+
 ```text
 @inproceedings{chen-etal-2021-probing,
  author = {Chen, Pei  and Liu, Kang  and Chen, Yubo  and Wang, Taifeng  and Zhao, Jun},
